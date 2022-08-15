@@ -1,0 +1,11 @@
+body, html {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-size: cover;
+    background-color: #dde5e5; 
+}
