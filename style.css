@@ -1,11 +1,93 @@
-body, html {
-    height: auto;
-    width: 100%;
+* {
     margin: 0;
+    padding: 0;
     overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-    background-size: cover;
-    background-color: #e8f0f0; 
+    background-color: #eceeee28; 
+    background-image: url('topography.svg');
+
 }
+
+.signup {
+    position: fixed;
+    height: 500px;
+    width: 500px;
+    background-color: #eceeee28;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 7.3% auto;
+    border-radius: 3%;
+    box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 4px 0px, rgba(14, 30, 37, 0.52) 0px 2px 16px 0px;
+}
+
+
+.signup {
+        position: relative;
+        top: 0;
+        transition: top ease 0.3s;
+}
+
+.footer {
+    background-color: #eceeee28;
+    box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 4px 0px, rgba(14, 30, 37, 0.52) 0px 2px 16px 0px;
+    height: 40px;
+    border-radius: 4%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.footer a {
+    text-decoration-line: none;
+    color: rgba(53, 53, 53, 0.829);
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: light;
+    letter-spacing: 1px;
+    transition: all .1s ease-in;
+}
+
+/* .footer, a {
+    -webkit-transition: all 0.5s ease;
+    transition: color 0.5s;
+    
+} */
+
+.footer, a:hover {
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+/* CURRENTLY UNUSED CODE */
+
+
+/* .signup:hover {
+    top: -10px;
+  } */
+
+  /* .footer, a {
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        justify-content: center;
+        margin: auto 20%;
+} */
+
+
+/* .footer, a {
+    -webkit-transition: all 0.5s ease;
+    transition: color 0.5s;
+    
+} */
