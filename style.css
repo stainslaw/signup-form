@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,66 +7,161 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+
 body {
     background-color: #bebebe46; 
     background-image: url('topography.svg');
 
+
 }
 
 .signup {
-    position: fixed;
-    height: 500px;
-    width: 500px;
-    background-color: #eceeee73;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: 7.3% auto;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
     border-radius: 3%;
-    box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 4px 0px, rgba(14, 30, 37, 0.52) 0px 2px 16px 0px;
-}
-
-
-.signup {
-        position: relative;
-        top: 0;
-        transition: top ease 0.3s;
-}
-
-.footer {
-    background-color: #eceeee73;
-    box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 4px 0px, rgba(14, 30, 37, 0.52) 0px 2px 16px 0px;
-    height: 40px;
-    border-radius: 4%;
+    height: 520px;
     width: 500px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    box-shadow: rgba(255, 255, 255, 0.651) 0px 5px 15px;
+    background-image: url('topography.svg');
+    background-position: 7.3% auto;
+    background-color: #e0e0e0;
+    filter: invert(70%);
+    transform: translate(-50%, -50%);
 }
 
+.maininfo {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
+    height: 520px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    background-color: #aaaaaa00; /* fully transparent */
+    border-radius: 3%;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 25px 0;
+    padding:20px;
+    text-align:center;
+    font-size:35px;
+    color:darken(#ffffff, 50%);
+    border-bottom:solid 2px rgb(255, 255, 255);
+}
+
+
+.maininfo p {
+    position: relative;
+    color: white;
+    font-weight: bold;
+  }
+
+  input {
+    display: block;
+    width: 75%;
+    outline: none;
+    margin:0;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    background: #fff;
+    border: 0.2px solid #dbdbdb;
+    font-size: 1.1rem;
+    padding: .4rem .5rem;
+    border-radius: 1px auto;
+    margin: 15px auto;
+  }
+
+
+  input[type="submit"] {
+    font-size: 1.5em;
+    margin-top: 40px;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: rgba(102, 102, 102, 0);
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease 0.2s;
+  }
+
+
+  input[type="submit"]:hover {
+    color: #000000;
+    background-image: url('topography.svg');
+    background-color: #eeeeee;
+    mix-blend-mode: event;
+    transition: ease 0.2s;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+#backboard {
+    position: absolute;
+    margin-right: -50%;
+    height: 600px;
+    width: 200px;
+    border-radius: 3%;
+}
 
 .footer a {
     text-decoration-line: none;
-    color: rgba(53, 53, 53, 0.829);
+    color: rgb(255, 255, 255);
     font-size: 20px;
-    padding-top: 10px;
     font-weight: light;
     letter-spacing: 1px;
     transition: all .1s ease-in;
+    filter: invert(100%);
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+    bottom: 0;
 }
 
 
 .footer, a:hover {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
 
+  .footer, a {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+}
+
+
+
+
+
+
 
 /* CURRENTLY UNUSED CODE */
+
+/* .footer {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.footer:hover {
+    top: -10px;
+} */
+
 
 /* background-color for divs: #eceeee28; */
 
